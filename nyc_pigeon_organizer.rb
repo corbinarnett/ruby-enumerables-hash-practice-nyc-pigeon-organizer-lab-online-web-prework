@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
         end
 
 
-        organized_hash[name][traits] << details.to_s # push details as strings into traits array
+        organized_hash[name][traits] << details.to_s # push details as strings into traits array using to_s to make strings
 
       end
     end
